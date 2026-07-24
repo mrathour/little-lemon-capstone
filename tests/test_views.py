@@ -25,3 +25,4 @@ class MenuViewTest(TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, serialized_data)
+    
